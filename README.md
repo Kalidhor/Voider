@@ -1,7 +1,7 @@
 # Voider
 This game is in creation. The basic idea of this it is to create a clone 
 of Assassins Creed Unity, but with small differences. It's written in Java and 
-the design is created in Blender. 
+designed in Blender. 
 
 There're some code snippets from monkeyzone in it, because i'll need them for 
 an framework example. Currently the login, loading screen, game gui and the beginning
