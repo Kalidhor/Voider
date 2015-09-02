@@ -13,5 +13,5 @@ If you have some ideas or you want to be a part of our team you can send me an e
 oldklickers@gmail.com
 
 
-The Team consits of one programmer and one designer for the logos and blender models.
+The team consits of one programmer and one designer for the logos and blender models.
 
