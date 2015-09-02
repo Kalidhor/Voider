@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!-- DROP DOWN CONTROL -->
+<nifty-controls> 
+  <controlDefinition style="void-drop-down" name="dropDownControlVoid" controller="Void.Login" inputMapping="Void.DropDownControlInput">
+      <panel childLayout="horizontal" height="4px" focusable="true">
+          <interact onClick="dropDownClicked()" />
+          <image id="icon" style="#icon" />
+      </panel>
+  </controlDefinition>
+  
+  <!-- DROP DOWN CONTROL ITEM -->
+  <controlDefinition name="dropDownControlVoidItem" controller="XMLDialoge.DropDownControlItem"  inputMapping="mapping.DropDownItemInputMappingVoid">
+      <text id="text" style="#text-item" text="" focusable="true">
+          <interact onRelease="dropDownItemClicked()" />
+      </text>
+  </controlDefinition>
+ 
+  <!-- DROP DOWN BOX POPUP (The Actual List this is) -->
+  <popup id="dropDownBoxSelectPopupVoid" style="nifty-drop-down" childLayout="absolute" controller="XMLDialoge.DropDownPopup">
+      <interact onRelease="close()" />
+      <panel id="dropDownList" style="#list-panel" />
+  </popup>
+  </nifty-controls>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nifty xmlns="http://nifty-gui.sourceforge.net/nifty-1.3.xsd"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://nifty-gui.sourceforge.net/nifty-1.3.xsd http://nifty-gui.sourceforge.net/nifty-1.3.xsd">
+  <useStyles filename="nifty-default-styles.xml" />
+  <useControls filename="nifty-default-controls.xml" />
+  <style id="listbox-item-style" base="nifty-listbox-item">
+      <effect>
+          <onCustom name="updateScrollpanelPositionToDisplayElement" target="listBoxStatic" oneShot="true" />
+      </effect>
+  </style>
+
+  <screen id="null" controller="Void.Login" >
+  </screen>
+   
+  <screen id="Login_Screen" controller="Void.Login">
+      <layer id="layer_start" childLayout="center" backgroundColor="#709ed3">
+          <panel id="loginpanel" height="300px" width="350px" align="center" valign="center" style="login-panel" childLayout="vertical">
+              <effect>
+                  <onCustomEffect name="fade" length="0x96" mode="in" inherit="true" />
+              </effect>
+              <image  align="center" valign="top" filename="Interface/Void.png"/>
+              <control id="username_text" name="textfield" align="center" valign="center" width="60%">
+                  <interact onEnter="switch_password()" />
+              </control>
+              <control id="password_text" name="passwordfield" align="center" valign="center" width="60%">
+                  <interact onEnter="connect()" />          
+              </control>
+          </panel>
+      </layer>
+  </screen>
+</nifty>

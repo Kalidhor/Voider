@@ -1,0 +1,11 @@
+Material My Material : Common/MatDefs/Light/Lighting.j3md {
+     MaterialParameters {
+        DiffuseMap : Textures/Virus/ice.jpg
+        SeparateTexCoord : true
+        LightMap : Textures/Virus/ice.jpg
+        UseMaterialColors : false
+        HardwareShadows : false
+     }
+    AdditionalRenderState {
+    }
+}

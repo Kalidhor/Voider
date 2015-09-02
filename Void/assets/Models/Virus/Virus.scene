@@ -1,0 +1,27 @@
+<scene export_time="1432488796.675439" exported_by="John" formatVersion="1.0.1" previous_export_time="0" >
+  <nodes >
+    <node name="Icosphere" >
+      <position z="-2.624367" x="3.386633" y="1.102713" />
+      <rotation qw="1.000000" qx="0.000000" qy="0.000000" qz="-0.000000" />
+      <scale z="0.500000" x="0.500000" y="0.500000" />
+      <user_data name="cycles_visibility" value='&lt;bpy id prop: owner="OBIcosphere", name="cycles_visibility", address=0x0000000003D384B8&gt;' type="IDPropertyGroup" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+      <entity lock_trans_z="False" inertia_tensor="0.4000000059604645" lock_trans_x="False" lock_trans_y="False" physics_type="STATIC" mass="1.0" actor="False" friction_x="1.0" friction_y="1.0" friction_z="1.0" meshFile="Icosphere.002.mesh" anisotropic_friction="False" name="Icosphere.002" ghost="False" damping_trans="0.03999999910593033" lock_rot_y="False" lock_rot_x="False" lock_rot_z="False" velocity_max="0.0" mass_radius="1.0" damping_rot="0.10000000149011612" velocity_min="0.0" >
+        <user_data name="cycles" value='&lt;bpy id prop: owner="MEIcosphere.002", name="cycles", address=0x0000000003D37AF8&gt;' type="IDPropertyGroup" />
+      </entity>
+    </node>
+  </nodes>
+  <externals >
+    <item type="material" >
+      <file name="C:\Users\John\Documents\Alle Projekte\monkeyzone-master\assets\Models\Virus\Material.material" />
+    </item>
+  </externals>
+  <environment >
+    <colourAmbient r="0.0" b="0.0" g="0.0" />
+    <colourDiffuse r="0.05087608844041824" b="0.05087608844041824" g="0.05087608844041824" />
+    <colourBackground r="0.05087608844041824" b="0.05087608844041824" g="0.05087608844041824" />
+  </environment>
+</scene>
