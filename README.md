@@ -1,5 +1,5 @@
 # Voider
-This game is in creation. The basic idea of this it is to create a clone 
+This game is in creation. The basic idea of this is to create a clone 
 of Assassins Creed Unity, but with small differences. It's written in Java and 
 designed in Blender. 
 
